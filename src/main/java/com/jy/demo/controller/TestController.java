@@ -11,9 +11,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/testController")
 public class TestController {
 
+    /**
+     * getData
+     *
+     * @param a
+     * @param b
+     * @author shisan
+     * @date 2017/3/31 下午2:41
+     */
     @RequestMapping("/getData")
     @ResponseBody
-    public String getData(){
+    public String getData(int a, String b) {
         return "org.springframework.web.bind.annotation.ResponseBody";
     }
 }
