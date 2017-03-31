@@ -14,6 +14,6 @@ public class TestController {
     @RequestMapping("/getData")
     @ResponseBody
     public String getData(){
-        return "data";
+        return "org.springframework.web.bind.annotation.ResponseBody";
     }
 }
