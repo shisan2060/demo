@@ -28,4 +28,9 @@ public class TestController {
         System.out.println(a+b);
         return "org.springframework.web.bind.annotation.ResponseBody";
     }
+
+    public String getData_branch_a(int a, String b) {
+        System.out.println(a+b);
+        return "getData_branch_a";
+    }
 }
