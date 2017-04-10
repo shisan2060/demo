@@ -1,8 +1,11 @@
 package com.jy.demo.controller;
 
+import com.jy.demo.service.DemoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
 
 /**
  * @Description 测试Controller
@@ -13,6 +16,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/testController")
 public class TestController {
+
+    @Autowired
+    private DemoService demoService;
 
     /**
      * 获取数据
@@ -26,6 +32,7 @@ public class TestController {
     @ResponseBody
     public String getData(int a, String b) {
         System.out.println(a+b);
+        System.out.println(demoService.getString("shisan"));
         return "org.springframework.web.bind.annotation.ResponseBody";
     }
 
@@ -33,4 +40,6 @@ public class TestController {
         System.out.println(a+b);
         return "getData_branch_a";
     }
+
+
 }
