@@ -47,8 +47,28 @@ public class testController {
 
     @Test
     public void getString() {
-        System.out.println("测试开始。。。");
-        System.out.println(demoService.getString("shisan"));
+        //System.out.println("测试开始。。。");
+        //System.out.println(demoService.getString("shisan"));
+
+        //TestModel tm = new TestModel();
+        //Method[] methods = tm.getClass().getDeclaredMethods();
+        //List<Method> list = Arrays.asList(methods);
+        //tm.getClass().getDeclaredMethod();
+        //for (Method method : list) {
+        //    if ("getName".equals(method.getName())){
+        //        method.invoke()
+        //    }
+        //}
+        //Field[] fields = tm.getClass().getDeclaredFields();
+        //for (int i = 0; i < fields.length; i++) {
+        //    if (fields[i].getAnnotation(Deprecated.class) != null) {
+        //        System.out.println(fields[i].toString());
+        //    }
+        //}
+
+        char[] cs = "name".toCharArray();
+        cs[0] -= 32;
+        System.out.println("get" + String.valueOf(cs));
     }
 
 }
