@@ -38,7 +38,7 @@ public class TestController {
 
     public String getData_branch_a(int a, String b) {
         System.out.println(a+b);
-        System.out.println("测试代码的冲突");
+        System.out.println("测试代码的冲突branch_a");
         return "getData_branch_a";
     }
 
