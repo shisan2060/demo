@@ -1,5 +1,6 @@
 package com.jy.demo.controller;
 
+import com.jy.demo.model.TestModel;
 import com.jy.demo.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -44,5 +45,8 @@ public class TestController {
         return "getData_branch_a";
     }
 
-
+    public static void main(String[] args) {
+        TestModel tm = new TestModel();
+        tm.setAge(10);
+    }
 }
