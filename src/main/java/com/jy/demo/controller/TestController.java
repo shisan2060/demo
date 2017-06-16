@@ -34,7 +34,7 @@ public class TestController {
     public String getData(int a, String b) {
         System.out.println(a+b);
         System.out.println(demoService.getString("shisan"));
-        return "org.springframework.web.bind.annotation.ResponseBody";
+        return "org.springframework.web.bind.annotation.ResponseBody......";
     }
 
     public String getData_branch_a(int a, String b) {
