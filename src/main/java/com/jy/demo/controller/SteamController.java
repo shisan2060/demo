@@ -173,7 +173,7 @@ public class SteamController {
                 e.printStackTrace();
             }
         }
-
+        System.out.println(1);
         return sb.toString();
 
     }
