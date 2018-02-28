@@ -12,6 +12,13 @@ public class TestModel {
 
     private int age;
 
+    /**
+     * 构造函数
+     *
+     * @param null
+     * @author shisan
+     * @date 2018/2/28 下午4:34
+     */
     public TestModel() {
     }
 

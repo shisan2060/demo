@@ -109,6 +109,7 @@
           <element id="library" level="project" name="Maven: io.springfox:springfox-swagger-ui:2.6.0" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.56" />
           <element id="library" level="project" name="Maven: com.esotericsoftware.yamlbeans:yamlbeans:1.11" />
+          <element id="library" level="project" name="Maven: org.mockito:mockito-all:1.9.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">
